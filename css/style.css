@@ -1,0 +1,232 @@
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* position: relative;
+    z-index: -1; */
+}
+
+
+.calender-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calender-icon ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.calender-icon ul li{
+    list-style: none;
+}
+
+.calender-icon ul li:first-child a{
+    padding-right: 33px;
+}
+.calender-icon ul li a i{
+    font-size: 20px;
+    color: #ddd;
+}
+.calender-icon ul li a img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #d09d67;
+    border-radius: 50%;
+}
+
+form .form-item{
+    display: flex;
+}
+
+form .form-item > input{
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    
+
+}
+
+form .form-item > input:focus{
+    outline: none;
+}
+
+form .form-item > button{
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.form-item{
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    box-shadow: 3px 4px 8px 0;
+    background-color: #fff;
+
+}
+
+.my-profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    box-shadow: 10px 8px 12px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.my-image img{
+    width: 80px;
+    height: 80px;
+}
+
+.my-image{
+    text-align: center;
+}
+
+.menu ul{
+    display: block;
+    text-align: center;
+    padding: 0;
+
+}
+.my-profile-details{
+    position: absolute;
+    top: 42px;
+   right: 30px;
+   visibility: hidden;
+   opacity: 1;
+   /* transition:  2s ease; */
+   /* z-index: 3; */
+   background:salmon;
+
+}
+
+.calender-icon ul li:hover .my-profile-details{
+    
+        position: absolute;
+        top: 42px;
+        right: 20px;
+       visibility:visible;
+       /* opacity: 1; */
+       z-index:50 ;
+    
+  
+}
+
+/* .calender-icon ul li:hover.calender-icon ul li a img{
+   
+    border: 2px solid #a667d0;
+   
+} */
+
+.calender-icon ul li{
+    position: relative;
+}
+.menu ul li:first-child a{
+    padding: 0 ;
+}
+
+.menu ul li {
+    margin-bottom: 20px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #090909;
+}
+
+.footer{
+    text-align: center;
+}
+
+/* calendeer body */
+
+.calender-area{
+    z-index: -1;
+    position: relative;
+
+}
+
+.calender-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-gap{
+    margin: 0 30px ;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 2s ease;
+
+}
+
+.btn:hover{
+    border: 1px solid salmon;
+}
+form select{
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+form select:focus{
+    outline: none;
+}
+
+.date p{
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    color:#5787A4;
+    border-radius: 20px;
+    
+
+}
+
+.date p span{
+    margin-right: 5px;
+}
+
+.calender-area{
+   
+   position: relative;
+   z-index: 1;
+}
+
+
+/* date and day */
+
+.calander-date-day{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+}
+.cal-day{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cal-date{
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    transition: 2s ease;
+    font-size: 18px;
+    border-radius: 10px
+}
+
+.cal-date:hover{
+background-color: #dddddd;
+}
+
+
